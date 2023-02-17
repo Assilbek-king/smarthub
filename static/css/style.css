@@ -44,8 +44,8 @@ body {
 
 :root {
 	--thm-font: 'Poppins', sans-serif;
-	--thm-base: #ffc152;
-	--thm-color: #ff9101;
+	--thm-base: yellow;
+	--thm-color: yellow;
 	--thm-bg: #c6857d;
 	--thm-black: #065c97;
 	--thm-title: #444444;
