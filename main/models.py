@@ -29,6 +29,7 @@ class Gallery(models.Model):
 class Review(models.Model):
     author = models.CharField(max_length=100)
     description = models.TextField(max_length=500, blank=True)
+    insta_link = models.TextField(max_length=500, blank=True)
     status = models.BooleanField(default=True, blank=True)
 
     def __str__(self):

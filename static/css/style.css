@@ -422,7 +422,7 @@ button, input, textarea:focus {
 	height: 50px;
 	background: var(--thm-color);
 	line-height: 50px;
-	color: var(--thm-white);
+	color: black;
 	border-radius: 50%;
 }
 .atf-scrollup-icon:hover {
@@ -454,11 +454,12 @@ button, input, textarea:focus {
 	text-transform: capitalize;
 	position: relative;
 	transform: translateY(0px);
-	border: 2px solid var(--thm-color);
+	border: 2px solid yellow;
 }
 .atf-themes-btn:hover{
-	background: transparent;
+	background: white;
 	color: var(--thm-black);
+
 }
 .btn-2{
 	background: transparent ! important;
@@ -475,9 +476,9 @@ button, input, textarea:focus {
 	transform: translateX(8px);
 }
 .atf-home-btn .atf-themes-btn{
-	background: var(--thm-white);
+	background: yellow;
 	color: var(--thm-black);
-	border:2px solid var(--thm-white) ! important;
+	border:2px solid yellow ! important;
 }
 .atf-home-btn .atf-themes-btn:hover{
 	background: transparent;
@@ -1952,7 +1953,7 @@ button, input, textarea:focus {
 	width: 45px;
 	height: 45px;
 	line-height: 45px;
-	color: var(--thm-white);
+	color: black;
 	text-align: center;
 	margin: 8px 0 25px;
 	border-radius: 5%;
@@ -2036,7 +2037,6 @@ button, input, textarea:focus {
 	height: 40px;
 	line-height: 40px;
 	border-radius: 20px;
-	color: var(--thm-white);
 	background: var(--thm-color);
 	text-align: center;
 	background: var(--thm-color);
